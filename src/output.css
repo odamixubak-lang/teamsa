@@ -178,6 +178,9 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -196,11 +199,26 @@
   .mt-80 {
     margin-top: calc(var(--spacing) * 80);
   }
+  .mt-90 {
+    margin-top: calc(var(--spacing) * 90);
+  }
+  .mt-100 {
+    margin-top: calc(var(--spacing) * 100);
+  }
+  .mt-500 {
+    margin-top: calc(var(--spacing) * 500);
+  }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
+  }
+  .ml-100 {
+    margin-left: calc(var(--spacing) * 100);
   }
   .flex {
     display: flex;
@@ -250,8 +268,20 @@
   .h-\[400px\] {
     height: 400px;
   }
+  .h-\[500px\] {
+    height: 500px;
+  }
   .h-\[600px\] {
     height: 600px;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-\[750px\] {
+    height: 750px;
+  }
+  .h-\[780px\] {
+    height: 780px;
   }
   .h-\[800px\] {
     height: 800px;
@@ -358,6 +388,9 @@
   .max-w-\[1500px\] {
     max-width: 1500px;
   }
+  .max-w-\[1900px\] {
+    max-width: 1900px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -373,8 +406,14 @@
   .items-center {
     align-items: center;
   }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
   }
   .gap-0 {
     gap: calc(var(--spacing) * 0);
@@ -408,6 +447,9 @@
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
+  }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
   }
   .gap-35 {
     gap: calc(var(--spacing) * 35);
@@ -466,6 +508,9 @@
   .border-\[\#FF3F3A\] {
     border-color: #FF3F3A;
   }
+  .bg-\[\#1E212C\] {
+    background-color: #1E212C;
+  }
   .bg-\[\#03CEA4\] {
     background-color: #03CEA4;
   }
@@ -507,6 +552,24 @@
   }
   .p-20 {
     padding: calc(var(--spacing) * 20);
+  }
+  .pt-1 {
+    padding-top: calc(var(--spacing) * 1);
+  }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
+  .pt-50 {
+    padding-top: calc(var(--spacing) * 50);
+  }
+  .pt-70 {
+    padding-top: calc(var(--spacing) * 70);
   }
   .text-center {
     text-align: center;
