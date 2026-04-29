@@ -1,5 +1,8 @@
 /*! tailwindcss v4.2.4 | MIT License | https://tailwindcss.com */
+<<<<<<< HEAD
 @layer properties;
+=======
+>>>>>>> 2fa2af6de88ee1b89add746394b2072ef330a009
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -7,9 +10,12 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+<<<<<<< HEAD
     --spacing: 0.25rem;
     --font-weight-bold: 700;
     --font-weight-black: 900;
+=======
+>>>>>>> 2fa2af6de88ee1b89add746394b2072ef330a009
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -162,6 +168,7 @@
     display: none !important;
   }
 }
+<<<<<<< HEAD
 @layer utilities {
   .m-auto {
     margin: auto;
@@ -658,3 +665,6 @@
     }
   }
 }
+=======
+@layer utilities;
+>>>>>>> 2fa2af6de88ee1b89add746394b2072ef330a009
